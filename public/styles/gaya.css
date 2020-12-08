@@ -1,0 +1,166 @@
+html {}
+
+
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@400;700&display=swap');
+
+header {
+    display: inline;
+}
+
+body {
+    font-family: 'Grandstander', sans-serif;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+.main {
+    padding: 20px;
+    margin: 10px 120px;
+    background-color: #fcf8ec;
+    height: 100%;
+    height: auto;
+}
+
+hr.garis {
+    border: 1px solid #456268 ;
+  }
+  
+
+
+.kontenheader {
+    display: flex;
+    background-color: #d0e8f2;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+.featured-logo {
+    max-width: 300px;
+    max-height: 100px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    resize: vertical;
+  }
+  input[type=radio], select, textarea {
+   border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+
+.formulir {
+    border-radius: 5px;
+    margin: 10px 120px;
+
+   
+}
+
+
+
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+
+
+
+h2,
+h3 {
+    color: #00a2c6
+}
+
+footer {
+    margin-top: 20px;
+    padding: 20px;
+    color: #456268;
+    background-color: #d0e8f2;
+    text-align: center;
+    font-weight: bold;
+   
+   left: 0;
+   bottom: 0;
+   width: 100%;
+
+
+}
+
+nav {
+    padding: 5px;
+    overflow: hidden;
+}
+
+nav a {
+    font-size: 25px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #456268
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+
+
+
+
+h1 {
+    text-align: center;
+  }
+
+
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
